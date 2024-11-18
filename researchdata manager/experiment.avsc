@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "Experiment",
+  "fields": [
+    {"name": "experiment_id", "type": "int"},
+    {"name": "experiment_name", "type": "string"},
+    {"name": "date", "type": "string"},
+    {"name": "researcher", "type": "string"},
+    {"name": "data_points", "type": {"type": "array", "items": "int"}}
+  ]
+}
